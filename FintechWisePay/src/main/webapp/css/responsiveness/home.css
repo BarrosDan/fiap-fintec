@@ -1,0 +1,58 @@
+@media only screen and (max-width: 768px) {
+	body {
+		height: 100%;
+	}
+
+	.header, .white-div {
+		display: none;
+	}
+
+	.home .top,
+	.home .middle,
+	.home .bottom {
+		flex-direction: column;
+		margin: 50px 0;
+		width: 100%;
+	}
+
+	.text {
+		font-size: 20px;
+	}
+
+	.money .title,
+	.btn {
+		font-size: 20px;
+	}
+
+	.text, .title, .price, .subtitle {
+		margin: 5px 0;
+	}
+
+	.btn {
+		margin: 20px 0;
+	}
+
+	.price {
+		font-size: 40px;
+	}
+
+	.subtitle {
+		font-size: 16px;
+	}
+
+	.eye {
+		height: 30px;
+		width: 30px;
+	}
+
+	.btn {
+		height: 80px;
+		width: 300px;
+	}
+
+	.small {
+		font-size: 16px;
+		height: 50px;
+		width: 200px;
+	}
+}

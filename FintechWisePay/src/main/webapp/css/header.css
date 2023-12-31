@@ -1,0 +1,42 @@
+.header {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  padding: 1px 0;
+  width: 100%;
+}
+
+.left {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.right {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.logo {
+  height: 96px;
+  width: 96px;
+}
+
+.btn-icons {
+  height: 45px;
+  width: 45px;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.btn-icons:hover {
+  cursor: pointer;
+  opacity: 80%;
+}

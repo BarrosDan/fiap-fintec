@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(to bottom right, #8809E0, #D7C1E5);
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 100vh;
+  width: 100%;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: 90%;
+  text-decoration: overline;
+}
+
+.white-div {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  height: 2px;
+  opacity: 80%;
+  width: 95%;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}

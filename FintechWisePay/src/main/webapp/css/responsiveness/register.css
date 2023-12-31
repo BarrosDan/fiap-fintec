@@ -1,0 +1,30 @@
+/* Ajuste os estilos para telas menores */
+@media only screen and (max-width: 600px) {
+	body {
+		height: 100%;
+	}
+	
+	.header {
+		display: none;
+	}
+
+	.main-content {
+		margin: 30px auto;
+		/* Ajuste conforme necessário */
+	}
+
+	/* Diminua o tamanho dos inputs e botões */
+	.wrapped input,
+	.sign-up {
+		width: 100%;
+		/* Ocupar 100% da largura */
+		max-width: 300px;
+		/* Ajuste conforme necessário */
+		font-size: 16px;
+		/* Ajuste conforme necessário */
+		height: 40px;
+		/* Ajuste conforme necessário */
+		margin-top: 5px;
+		/* Ajuste conforme necessário */
+	}
+}

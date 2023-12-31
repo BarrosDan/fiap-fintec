@@ -1,0 +1,64 @@
+.main-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px auto;
+  max-width: 40%;
+}
+
+.hi {
+  height: 96px;
+  margin-top: 20px;
+  width: 96px;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.wrapped {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 20px;
+}
+
+.wrapped input {
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  height: 90px;
+  margin-top: 10px;
+  padding: 0 20px;
+  width: 470px;
+}
+
+.sign-up {
+  border-radius: 20px;
+  background-color: #6D72D9;
+  border: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 80px;
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+.sign-up:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.enter {
+  color: #5656DE;
+  font-weight: 600;
+}
+
+.enter:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
